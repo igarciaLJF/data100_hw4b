@@ -43,6 +43,8 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 nav ul li {
     font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +54,27 @@ nav ul li {
     padding-left: 1em;
     padding-right: 1em;
 }
+nav ul li:hover {
+        background-color: lightskyblue;
+}
 nav ul li a {
     text-decoration: none;
     color: black;
+}
+a:visited {
+    margin-top: 4rem;
+    border-top: 0.1rem solid slategrey;
+    border-bottom: none;
+    font-size: 0.8rem;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
